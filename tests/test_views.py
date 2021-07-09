@@ -3,7 +3,7 @@ from http import HTTPStatus
 import pytest
 from django.urls import reverse
 
-from library.models import *
+from library.models import Author, Library, Book
 
 
 @pytest.mark.django_db

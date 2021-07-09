@@ -4,7 +4,7 @@ from datetime import timedelta, date
 
 from django.core.management.base import BaseCommand
 import random
-from library.models import *
+from library.models import Book, Library, Author
 
 
 class Command(BaseCommand):
